@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+      
+}
+main{
+    height: 100vh;
+    width: 100%;
+
+
+
+
+}
+.navigation-1{
+    height: 100px;
+
+    padding: 38px 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation-1 section svg{
+    width: 17px;
+}
+.section{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.section i{
+    font-size: 36px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.section svg:hover{
+    color: rgb(213, 71, 163);
+    width: 17px;
+    
+}
+.section2 svg{
+    width: 17px;
+}
+.section span:hover{
+    color: palevioletred;
+
+}
+.section3{
+    display: flex;
+    
+}
+.block span, .block svg{
+    cursor: pointer;
+}
+.section2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    object-fit: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,)
+
+
+
+}
+.section2 img{
+    width: 100%;
+    height:100%;
+    object-fit:fill;
+    top: 10px;
+    transform: translate(-50%)
+}
+
+
+.section3 svg:hover{
+    color: rgb(177, 93, 107)
+}
+    
+
+
+    
